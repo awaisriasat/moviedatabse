@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - ZVActivityIndicatorView (0.2.3)
+  - ZVProgressHUD (2.5.1):
+    - ZVActivityIndicatorView
+
+DEPENDENCIES:
+  - AFNetworking
+  - ZVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - ZVActivityIndicatorView
+    - ZVProgressHUD
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  ZVActivityIndicatorView: 7e79667deaaeeb8f92bb8b4f6ac746e3d9c95058
+  ZVProgressHUD: 72bc677b60f254ed9642381aa37fcaaa66be48ba
+
+PODFILE CHECKSUM: 5987ae01f7af4fb41d9c3270fc17869ef8af0e22
+
+COCOAPODS: 1.7.5
